@@ -4,5 +4,5 @@ xcode_project: SampleTravisCi.xcodeproj
 xcode_scheme: SampleTravisCiTests
 
 script:
-xcodebuild -project "SampleTravisCi.xcodeproj" -scheme "SampleTravisCi" -sdk "iphonesimulator9.2" -destination "OS=9.2,name=iPhone 6S Plus" test
 
+xcodebuild -project "SampleTravisCi.xcodeproj" -scheme "SampleTravisCi" -sdk "iphonesimulator9.2" -destination "OS=9.2,name=iPhone 6S Plus" test;
